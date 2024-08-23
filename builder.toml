@@ -33,7 +33,7 @@ description = "Initializ Distroless base image with buildpacks for Go, NodeJS, P
   version = "1.0.13"
 
 [lifecycle]
-  version = "0.20.0"
+  version = "0.20.1"
 
 [[order]]
 
