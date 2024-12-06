@@ -5,8 +5,8 @@ description = "Initializ Distroless base image with buildpacks for Go, NodeJS, P
   version = "1.1.0"
 
 [[buildpacks]]
-  uri = "docker://docker.io/initializbuildpacks/go:2.0.3"
-  version = "2.0.3"
+  uri = "docker://docker.io/initializbuildpacks/go:2.0.4"
+  version = "2.0.4"
 
 [[buildpacks]]
   uri = "docker://docker.io/initializbuildpacks/java-native-image:9.1.0"
@@ -17,20 +17,20 @@ description = "Initializ Distroless base image with buildpacks for Go, NodeJS, P
   version = "9.9.2"
 
 [[buildpacks]]
-  uri = "docker://docker.io/initializbuildpacks/nodejs:3.0.6"
-  version = "3.0.6"
+  uri = "docker://docker.io/initializbuildpacks/nodejs:3.0.7"
+  version = "3.0.7"
 
 [[buildpacks]]
-  uri = "docker://docker.io/initializbuildpacks/procfile:5.6.21"
-  version = "5.6.21"
+  uri = "docker://docker.io/initializbuildpacks/procfile:5.6.22"
+  version = "5.6.22"
 
 [[buildpacks]]
   uri = "docker://docker.io/initializbuildpacks/python:4.0.9"
   version = "4.0.9"
 
 [[buildpacks]]
-  uri = "docker://docker.io/initializbuildpacks/web-servers:1.0.17"
-  version = "1.0.17"
+  uri = "docker://docker.io/initializbuildpacks/web-servers:1.0.18"
+  version = "1.0.18"
 
 [lifecycle]
   version = "0.20.4"
@@ -45,7 +45,7 @@ description = "Initializ Distroless base image with buildpacks for Go, NodeJS, P
 
   [[order.group]]
     id = "initializ-buildpacks/go"
-    version = "2.0.3"
+    version = "2.0.4"
 
 [[order]]
 
@@ -57,7 +57,7 @@ description = "Initializ Distroless base image with buildpacks for Go, NodeJS, P
 
   [[order.group]]
     id = "initializ-buildpacks/web-servers"
-    version = "1.0.17"
+    version = "1.0.18"
 
 [[order]]
 
@@ -75,13 +75,13 @@ description = "Initializ Distroless base image with buildpacks for Go, NodeJS, P
 
   [[order.group]]
     id = "initializ-buildpacks/nodejs"
-    version = "3.0.6"
+    version = "3.0.7"
 
 [[order]]
 
   [[order.group]]
     id = "initializ-buildpacks/procfile"
-    version = "5.6.21"
+    version = "5.6.22"
 
 [stack]
   build-image = "docker.io/initializbuildpacks/securepacks-build:0.0.3"
