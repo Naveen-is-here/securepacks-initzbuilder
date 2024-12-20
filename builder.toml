@@ -13,8 +13,8 @@ description = "Initializ Distroless base image with buildpacks for Go, NodeJS, P
   version = "9.1.0"
 
 [[buildpacks]]
-  uri = "docker://docker.io/initializbuildpacks/java:9.9.2"
-  version = "9.9.2"
+  uri = "docker://docker.io/initializbuildpacks/java:9.9.4"
+  version = "9.9.4"
 
 [[buildpacks]]
   uri = "docker://docker.io/initializbuildpacks/nodejs:3.0.8"
@@ -69,7 +69,7 @@ description = "Initializ Distroless base image with buildpacks for Go, NodeJS, P
 
   [[order.group]]
     id = "initializ-buildpacks/java"
-    version = "9.9.2"
+    version = "9.9.4"
 
 [[order]]
 
