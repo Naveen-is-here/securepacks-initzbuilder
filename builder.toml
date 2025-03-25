@@ -29,8 +29,8 @@ description = "Initializ Distroless base image with buildpacks for Go, NodeJS, P
   version = "4.0.10"
 
 [[buildpacks]]
-  uri = "docker://docker.io/initializbuildpacks/web-servers:1.0.19"
-  version = "1.0.19"
+  uri = "docker://docker.io/initializbuildpacks/web-servers:1.0.20"
+  version = "1.0.20"
 
 [lifecycle]
   version = "0.20.7"
@@ -57,7 +57,7 @@ description = "Initializ Distroless base image with buildpacks for Go, NodeJS, P
 
   [[order.group]]
     id = "initializ-buildpacks/web-servers"
-    version = "1.0.19"
+    version = "1.0.20"
 
 [[order]]
 
