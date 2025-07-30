@@ -87,4 +87,3 @@ description = "Initializ Distroless base image with buildpacks for Go, NodeJS, P
   build-image = "docker.io/initializbuildpacks/securepacks-build:0.0.3"
   id = "Initializ Distroless Stack"
   run-image = "initializbuildpacks/securepacks-run:latest"
-  run-image-mirrors = []
