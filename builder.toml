@@ -21,8 +21,8 @@ description = "Initializ Distroless base image with buildpacks for Go, NodeJS, P
   version = "3.0.10"
 
 [[buildpacks]]
-  uri = "docker://docker.io/initializbuildpacks/procfile:5.6.23"
-  version = "5.6.23"
+  uri = "docker://docker.io/initializbuildpacks/procfile:5.6.24"
+  version = "5.6.24"
 
 [[buildpacks]]
   uri = "docker://docker.io/initializbuildpacks/python:4.0.10"
@@ -81,7 +81,7 @@ description = "Initializ Distroless base image with buildpacks for Go, NodeJS, P
 
   [[order.group]]
     id = "initializ-buildpacks/procfile"
-    version = "5.6.23"
+    version = "5.6.24"
 
 [stack]
   build-image = "docker.io/initializbuildpacks/securepacks-build:0.0.3"
